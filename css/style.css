@@ -115,8 +115,7 @@ body{
 }
 
 ::-webkit-scrollbar{
-  width: 12px;
-  height: 12px;
+  width: 8px;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -453,7 +452,7 @@ label.error{
   position: absolute;
   left: 0;
   top:0;
-  width: 100%;
+  width: 100%;  
   height: 100%;
   padding:20px 50px 0;
   -webkit-transform-style: flat;
@@ -476,6 +475,7 @@ label.error{
 
 .flip-back{
   background-color: #fff;
+  border: 2px solid #dda01f;
   color: #000;
   -webkit-transform: rotateX(90deg) translateZ(25px);
       -ms-transform: rotateX(90deg) translateZ(25px);
@@ -2570,14 +2570,14 @@ img.mfp-img{
 
 .section-banner{
   padding: 70px 0;
-  background-color: #dda01f;
-  color: #fff;
+  background-color: #e5e5e5;
+  color: #dda01f;
 }
 
 .banner-title{
   padding-top: 5px;
   font-size: 30px;
-  color: #fff;
+  color: #dda01f;
   letter-spacing: 0;
 }
 
